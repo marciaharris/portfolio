@@ -6,7 +6,7 @@
 
 }
 body {
-  background-color: rgb(225, 114, 173) ;
+  background-image: url(https://img.freepik.com/free-vector/detailed-hand-painted-pink-watercolour-background_1048-17039.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709510400&semt=ais) ;
   margin: 0; 
   display: flex; 
   flex-direction: column;
@@ -18,4 +18,13 @@ body {
   flex-direction: row;  
   align-items: center; 
   width: 100vw; 
+  font-family: "Playfair Display", serif;
+  font-style: Italic;
+}
+h1 {
+  font-family: "Playfair Display", serif;
+  color: rgb(82, 107, 139);
+}
+p,h2 {
+  color :rgb(82, 107, 139);
 }

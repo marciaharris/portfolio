@@ -1,7 +1,9 @@
 export default function Home (){
     return (
         <div>
-            Hello Home
+            <h1>Hi</h1>
+            <br></br>
+            <h1>I'm Marcia, a web developer...</h1>
         </div>
     )
 }
