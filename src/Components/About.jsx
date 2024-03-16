@@ -1,7 +1,7 @@
 export default function About (){
     const Summary = () => {
         return (
-            <>
+            <div className="text-black">
     <h1>Introduction and Background: </h1>
 
     <p>My name is Marcia Harris. I am a web developer with a background in sales and marketing. I have experience in JS, CSS, HTML, React, Express, Github, MongoDB</p>
@@ -30,7 +30,7 @@ export default function About (){
     <h1>Education and Certifications:</h1>
 
     <p>The Knowledge House Sep 2023-Sep 20224</p>				
-            </>
+            </div>
         ) 
     }
     return (
