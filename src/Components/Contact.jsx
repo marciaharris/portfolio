@@ -9,10 +9,10 @@ export default function Contact (props){
         <div className="">
            <h2 className="text-xl w-full flex flex-col items-center my-10" >Contact Me</h2>
 
-            <p className="text-black">Get in touch with me for any queries or feedback.</p>
-            <p className="text-black">phone number: {phone}</p>
-            <p className="text-black">{email}</p>
-            <a className="link text-primary" href={linkedIn} >Here is my LinkedIn</a>
+            <p className="text-primary">Get in touch with me for any queries or feedback.</p>
+            <p className="text-primary">phone number: {phone}</p>
+            <p className="text-primary">{email}</p>
+            <a className="link text-accent" href={linkedIn} >Here is my LinkedIn</a>
             <Form/>
         </div>
     )

@@ -2,7 +2,7 @@ export default function Projects (props){
   const knights = props.photos;
   const tasks = props.tasks;
     return (
-        <div className="text-black">
+        <div className="text-primary">
         <ul >
         <li > Task Tracker </li>
         <li> Rick and Morty </li>

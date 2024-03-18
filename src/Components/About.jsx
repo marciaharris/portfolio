@@ -1,7 +1,7 @@
 export default function About (){
     const Summary = () => {
         return (
-            <div className="text-black">
+            <div className="text-primary">
     <h1>Introduction and Background: </h1>
 
     <p>My name is Marcia Harris. I am a web developer with a background in sales and marketing. I have experience in JS, CSS, HTML, React, Express, Github, MongoDB</p>

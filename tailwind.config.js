@@ -4,9 +4,15 @@ module.exports = {
     themes: [ {
       lemonade : {
         ...require("daisyui/src/theming/themes")["lemonade"],
-        neutral:"white"
+        neutral:"white",
+        primary:"grey"
       }, },
-      "synthwave"
+      {synthwave : {
+        ...require("daisyui/src/theming/themes")["synthwave"],
+        accent:"purple",
+        primary:"white"
+
+      }}
   ]
   },
   content: [

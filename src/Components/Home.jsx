@@ -1,21 +1,24 @@
 
 //./assets/photos/1596646766880.jpeg
-export default function Home (){
-    return(
-        <div className="w-full flex flex-col items-center">
-        <div className="avatar my-10">
-            <div className="w-48 rounded-full">
-                <img src="https://media.licdn.com/dms/image/C4D03AQE8VKFJdsvL-Q/profile-displayphoto-shrink_400_400/0/1596646766880?e=1715817600&v=beta&t=u194XYFD5Q93cqjhuDYNaEAj2xP1g9GWnDNMLsqxjII" />
+export default function Home(props) {
+    const daisies= props.daisies;
+    const selfies =  props.selfie
+    return (
+        <div className="">
+            <div className="grid grid-cols-2 my-0">
+                <img className="grid h-screen grid-cols-20 my-0" src={daisies} />
+
+                <div className=" w-full flex-col items-center  flex text-primary">
+                    <div>
+                        <h1 className="text-9xl ">Hi,</h1>
+                    </div>
+                    <div>
+                        <h1 className="text-3xl mx-0 text-center">I'm Marcia Harris! A full-stack engineer, and so much more...</h1>
+                    </div>
+                    <h1 className="text-slate-50"> This is my firt easter egg</h1>
+                    <img className="avatar"src={selfies} />
+                </div>
             </div>
         </div>
-        <div className=" flex text-secondary">
-            <div>
-            <h1 className="text-9xl ">Hi,</h1>
-            </div>
-            <div>
-            <h1 className="text-3xl text-right">I'm Marcia Harris! A full-stack engineer, and so much more...</h1>
-            </div>
-        </div>
-</div>
     )
 }
