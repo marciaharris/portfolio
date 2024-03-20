@@ -1,26 +1,32 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   daisyui: {
-    themes: [ {
-      lemonade : {
-        ...require("daisyui/src/theming/themes")["lemonade"],
-        neutral:"white",
-        primary:"grey"
-      }, },
-      {synthwave : {
+    themes: [{
+      valentine: {
+        ...require("daisyui/src/theming/themes")["valentine"],
+        neutral: "white",
+        primary: "grey"
+      },
+    },
+    {
+      synthwave: {
         ...require("daisyui/src/theming/themes")["synthwave"],
-        accent:"purple",
-        primary:"white"
+        accent: "purple",
+        primary: "white"
 
-      }}
-  ]
+      }
+    }
+    ]
   },
   content: [
-  "./index.html",
-  "./src/**/*.{js,jsx}",
-],
-  theme: {
-    extend: {},
+    "./index.html",
+    "./src/**/*.{js,jsx}",
+  ],
+  variants: {
+    theme: {
+      extend: {
+      },
+    },
   },
   plugins: [
     require('daisyui')

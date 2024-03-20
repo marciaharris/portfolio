@@ -1,27 +1,31 @@
 
-//./assets/photos/1596646766880.jpeg
 export default function Home(props) {
     const daisies = props.daisies;
     const selfies = props.selfie;
+    const galaxy = props.galaxy;
     return (
-        <div className="">
-            <div className="grid grid-cols-2 my-0">
-                <img className="grid h-screen grid-cols-20 my-0" src={daisies} />
+        <>
+            <div className="overflow-auto flex justify-center mt-10">
 
-                <div className=" w-full flex-col items-center  flex text-primary">
-                    <div>
-                        <h1 className="text-9xl ">Hi,</h1>
+                <div className="flex justify-center max-w-screen-xl text-primary ">
+                    <div className="avatar h-44 w-44 ">
+                        <img className="  m-3.5 rounded-full" src={selfies} />
                     </div>
-                    <div>
-                        <h1 className="text-3xl mx-0 text-center">I'm Marcia Harris! A full-stack engineer, and so much more...</h1>
+                    <div className="px-5 w-1/2">
+                        <h1 className=" text-7xl text-center ">Hi,</h1>
+                        <br />
+                        <h1 className="text-2xl text-center">I'm Marcia Harris! A full-stack engineer, and so much more...</h1>
+                        <br/>
+                        <h1 className="text-2xl text-center">I have worked over 9 years in customer facing roles, in sales, retail and the food industry! </h1>
+                        <br/>
+                        <h1 className="text-2xl">From sales, I learned perserverance, discipline and empathy</h1>
+                        <h1 className="text-2xl">In the food industry I learned</h1>
                     </div>
-                    <h1 className="text-slate-50"> This is my firt easter egg</h1>
-                    <br></br>
-                    <div className="avatar">
-                    <img className="h-10 max-w-44  m-3.5 rounded-full" src={selfies} />
-                    </div>
+
+
                 </div>
             </div>
-        </div>
+            
+        </>
     )
 }
