@@ -14,4 +14,7 @@
   .input-form {
     @apply input input-bordered flex items-center gap-2 input-accent w-full max-w-xs;
   }
-  
+
+  .carosel-format {
+    @apply flex flex-col carousel-item mr-5 ;
+  }
