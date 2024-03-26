@@ -27,7 +27,7 @@ It encompasses the tech journey I began in September of 2023.
     <img src="![images/logo.png](src/assets/photos/portfolio.png)" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Marcia's Portfolio</h3>
 
   <p align="center">
     An introduction to me as a web developer, and team-mate.
@@ -76,7 +76,6 @@ It encompasses the tech journey I began in September of 2023.
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,6 +84,11 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ### Built With
 
 * [![React][React.js]][React-url]
+* Vite
+* VSCode 
+* Tailwind
+* DaisyUI
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +104,7 @@ To get a local copy up and running follow these simple example steps.
 
 * npm
   ```sh
-  npm install 
+  npm install npm@latest -g
   ```
 
 ### Installation
@@ -122,8 +126,6 @@ To get a local copy up and running follow these simple example steps.
 ## Usage
 
 For potential employers and partners to view past work and learn more about me.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
