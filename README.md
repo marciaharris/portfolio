@@ -23,9 +23,6 @@ It encompasses the tech journey I began in September of 2023.
 
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="![images/logo.png](src/assets/photos/portfolio.png)" alt="Logo" width="80" height="80">
-  </a>
 
 <h3 align="center">Marcia's Portfolio</h3>
 
@@ -76,6 +73,7 @@ It encompasses the tech journey I began in September of 2023.
 
 ![portfolio image](portfolio.png)
 
+I hope this provides more perspective on my journey into web development, and what my experiences contribute to my success as a coder.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
