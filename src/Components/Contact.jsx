@@ -1,5 +1,6 @@
 import { Form } from "./Form";
 
+
 export default function Contact (props){
     const phone = props.phone;
     const email = props.email;
