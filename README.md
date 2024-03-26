@@ -74,7 +74,7 @@ It encompasses the tech journey I began in September of 2023.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![https://example.com/image.jpg](<!(portfolio.png)>)
+![https://example.com/image.jpg](<![Alt text](portfolio.png)>)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
