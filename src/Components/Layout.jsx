@@ -1,7 +1,8 @@
 import { Outlet } from "react-router-dom"
 import { Link } from 'react-router-dom'
 
-export default function Layout() {
+export default function Layout(props) {
+    const clouds = props.clouds;
     //change src for photo 
     return (
         <div className="input-info text-secondary font-serif ">

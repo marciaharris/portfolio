@@ -25,6 +25,9 @@ module.exports = {
   variants: {
     theme: {
       extend: {
+        backgroundImage: {
+          'parallax': 'url("../public/clouds.png")'
+        }
       },
     },
   },

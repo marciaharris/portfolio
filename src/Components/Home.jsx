@@ -1,4 +1,4 @@
-
+// conditional rendering for clicked button to change to space mode
 export default function Home(props) {
     const selfies = props.selfie;
     return (
